@@ -1,0 +1,89 @@
+/* Background gradient */
+.gradient-custom-3 {
+  background: linear-gradient(to right, #A2D2D8, #A2D2D8);
+}
+
+/* Card wrapper */
+.form-wrapper {
+  width: 100%;
+  max-width: 420px;
+  max-height: 95vh;
+  overflow: auto;
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo-daftar {
+  width: 70px;
+  height: auto;
+}
+
+/* Judul */
+.text-success-custom {
+  color: #009688;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* Input field styling */
+.form-control {
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+/* Input focus effect */
+.form-control:focus {
+  border-color: #009688;
+  box-shadow: 0 0 0 0.1rem rgba(0, 150, 136, 0.25);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Tombol daftar */
+.btn-daftar {
+  background-color: #009688;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-daftar:hover {
+  background-color: #00796B;
+}
+
+.btn-daftar:active {
+  transform: scale(0.98);
+}
+
+/* Link */
+.form-check-label a,
+.text-muted a {
+  color: #00796B;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.form-check-label a:hover,
+.text-muted a:hover {
+  text-decoration: underline;
+}
+
+/* Responsif kecil */
+@media (max-width: 400px) {
+  .form-wrapper {
+    padding: 20px 15px;
+  }
+
+  .btn-daftar {
+    font-size: 14px;
+  }
+}

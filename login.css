@@ -1,0 +1,78 @@
+/* Gradient background */
+.gradient-custom-3 {
+  background: linear-gradient(to right, #ffecd2, #A2D2D8);
+}
+
+/* Logo styling */
+.logo-daftar {
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Judul Login */
+.text-succes {
+  color: #009688;
+  font-weight: 600;
+}
+
+/* Kotak form (card) */
+.form-wrapper {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 25px 20px;
+}
+
+/* Input styling */
+.form-control {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Tombol login */
+.btn-daftar {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-daftar:hover {
+  background-color: #00796B;
+}
+
+.btn-daftar:active {
+  transform: scale(0.98);
+}
+
+/* Teks link */
+.form-check-label a,
+.text-muted a {
+  color: #00796B;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.form-check-label a:hover,
+.text-muted a:hover {
+  text-decoration: underline;
+}
+
+/* Responsif (opsional, tapi bagus kalau ditambah) */
+@media (max-width: 400px) {
+  .form-wrapper {
+    padding: 20px 15px;
+  }
+
+  .btn-daftar {
+    font-size: 13px;
+  }
+}
